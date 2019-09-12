@@ -22,7 +22,7 @@ class Child extends React.Component {
 
   class Parent extends React.Component {
     onClick = () => {
-      this.child.alertMessage(); // do stuff
+      this.child.alertMessage();
     }
     render() {
       return (
